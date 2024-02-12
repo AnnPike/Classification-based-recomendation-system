@@ -1,6 +1,6 @@
 # Partner_acceptance_prediction
 The task of the project is to optimize redirect Partner Partners that will bring the company the most revenue.<br />
-First, I analyze the dataset in ```1EDA.ipynb``` <br />, do relevant transformations and prepare dataset for training<br />
+First, I analyze the dataset in ```1EDA.ipynb```, do relevant transformations and prepare dataset for training<br />
 Then, I created a baseline model which I chose to be Naive Bias in ```2baseline_NaiveBias.ipynb```  <br />
 I found out that this model doesn't work so well for our dataset and I attempted to create more sophisticated models, like KNN in ```1EDA.ipynb``` <br /> Here I run a Cross-Validation Grid Search using the custom score, which is a very simple function of f1 of reject and f1 of convergence. <br />Since both are important for us, we force more balanced solutions to win.<br />![alt text](https://github.com/AnnPike/Partner_acceptance_prediction/blob/main/custom_score.png)<br />
 Then I attempt to solve it using Random Forest in ```4RandomForest.ipynb``` <br />. I obtain very high precision but very low recall.<br />
