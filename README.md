@@ -19,4 +19,4 @@ Monitoring statistics of output. Another option is computational monitoring - th
 5. What would be other important considerations to keep in mind when working on this
 problem?<br />
 Impretability - we would prefer models that can assist us in accessing links and causes for better data driver decisions.
-Because the real value for most of the partners for a specific lead is unknown, we should test different ranking models in production using A/B tests. Or algorithms that help us collect more data - enhancing the rank for rare partners, but in this case we need to calculate how much we gain vs. how much we may lose.
+Because the real value for most of the partners for a specific lead is unknown, we should test different ranking models in production using A/B tests. Or algorithms that help us collect more data - enhancing the rank for rare partners, but in this case we need to calculate how much we gain vs. how much we may lose. We can build a model that predicts user behavior and utilize this information for better prediction and data collection.
